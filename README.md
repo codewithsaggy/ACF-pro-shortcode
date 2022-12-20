@@ -1,6 +1,7 @@
 # ACF-pro-shortcode
 ACF Field backend code
 
+<?php 
 
 Get product variations attributes details in shortcode
 
@@ -74,3 +75,4 @@ function ac_product_attributes_callback(){
 	$html .= ob_get_clean();
 	return $html;
 }
+?>
